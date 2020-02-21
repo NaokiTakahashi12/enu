@@ -41,12 +41,12 @@
 #include <string>
 
 extern "C" {
-  #include "libswiftnav/coord_system.h"
+  #include <swiftnav/coord_system.h>
 }
 
-#include "ros/ros.h"
-#include "sensor_msgs/NavSatFix.h"
-#include "geometry_msgs/Point.h"
+#include <ros/ros.h>
+#include <sensor_msgs/NavSatFix.h>
+#include <geometry_msgs/Point.h>
 
 #define TO_RADIANS (M_PI/180)
 #define TO_DEGREES (180/M_PI)
